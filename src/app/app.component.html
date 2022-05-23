@@ -1,0 +1,11 @@
+<h1 class="text-3xl font-bold underline">
+  Hello world!
+</h1>
+<button class = "bg-indigo-500">123</button>
+<div class = "w-1/4 p-2 m-2 border"> 
+  <display
+  [number] = "digit"
+  ></display>
+  <number-pad 
+  (updateDisplay)="triggerEvent($event)"></number-pad>
+</div>
